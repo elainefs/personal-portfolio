@@ -1,116 +1,196 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elaine Ferreira</title>
+    <title>Portfólio - Elaine Ferreira</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
-    <main class="resume-contents">
-        <section class="left-section">
-            <section class="left-section-content">
-                <div class="profile">
-                    <img class="profile-image" src="/assets/elaineferreira.jpg" alt="Profile image">
-                    <p class="name">Elaine Ferreira</p>
-                    <p class="profession">Web Developer</p>
-                </div>
-                <div class="contact-info">
-                    <p class="left-title">Contato</p>
-                    <ul>
-                        <li><i class="fa fa-phone">+55 91 99999-9999</i></li>
-                        <li><i class="fa fa-envelope">meu@email.com</i></li>
-                        <li><i class="fa fa-globe">www.elaineferreira.com.br</i></li>
-                        <li><i class="fa fa-github">elainefs</i></li>
-                    </ul>
 
-                </div>
-                <div class="skills">
-                    <p class="left-title">Skills</p>
-                    <ul>
-                        <li><p>JavaScript</p></li>
-                        <li><p>HTML5 & CSS3</p></li>
-                        <li><p>Git & GitHub</p></li>
-                    </ul>
-                </div>
-            </section>
+    
+
+    <input type="checkbox" id="ativar-dark" class="ativar-dark">
+    <div class="dark-mode">
+        <!--CABEÇALHO-->
+        <header>
             
-        </section>
-        
-        <section class="right-section">
-            <div class="right-section-contents">
-                <section class="about gap">
-                    <div class="right-title">Sobre Mim</div>
-                    <p class="about-me-contents">
-                        <br>Apaixonada por tecnologia, sempre em busca de novos conhecimentos. <br>
-                        <br>Experiência no desenvolvimento de aplicações web.
-                    </p>
-                </section>
-            </div>
-            <section class="experience gap">
-                <div class="right-title">Experiências</div>
-                <div class="experience-contents">
-                    <div class="exp-left">
-                        <p class="exp-company-name">Empresa 01</p>
-                        <p class="exp-company-period">2021-Present</p>
-                    </div>
-                    <div class="exp-right">
-                        <p class="exp-position">Web Developer</p>
-                        <p class="exp-desc">Diversas atividades desenvolvidas</p>
-                    </div>
-                    <div class="exp-left">
-                        <p class="exp-company-name">Empresa 01</p>
-                        <p class="exp-company-period">2021-Present</p>
-                    </div>
-                    <div class="exp-right">
-                        <p class="exp-position">Web Developer</p>
-                        <p class="exp-desc">Diversas atividades desenvolvidas</p>
-                    </div>
-                </div>
-            </section>
-            <section class="education gap">
-                <div class="right-title">Formação Acadêmica</div>
-                <div class="education-contents">
-                <div class="education-left">
-                    <p class="education-school-name">PUC</p>
-                    <p class="education-time-period">2021-2023</p>
-                </div>
-                <div class="education-right">
-                    <p class="education-school-subject">Engenharia de Software</p>
-                    <p class="education-desc">Pós-graduação</p>
-                </div>
-                <div class="education-left">
-                    <p class="education-school-name">PUC</p>
-                    <p class="education-time-period">2021-2023</p>
-                </div>
-                <div class="education-right">
-                    <p class="education-school-subject">Engenharia de Software</p>
-                    <p class="education-desc">Pós-graduação</p>
-                </div>
-                </div>
-            </section>
-            <section class="awards gap">
-                <div class="right-title">Cursos</div>
-                <div class="awards-contents">
-                    <div class="awards-left">
-                        <p class="awards-company-name">HTML5 & CSS3</p>
-                        <p class="awards-time-period">Março de 2022</p>
-                    </div>
-                    <div class="awards-right">
-                        <p class="awards-name">Git & GitHub</p>
-                        <p class="awards-desc">Curso feito no ano de 2022 na EBAC</p>
-                    </div>
-                </div>
-            </section>
-        </section>
+            <div class="container">
+                <label for="ativar-dark">
+                    <span></span>
+                </label>
+                <div class="linha">
 
-    </main>
+                    <!--CAIXA FOTO DE PERFIL-->
+                        <div class="coluna coluna-esquerda">
+                            <figure>
+                                <img src="./assets/img/eu.png" alt="Elaine Ferreira">
+                                <figcaption class="hidden">Elaine Ferreira</figcaption>
+                            </figure>
+                        </div>
+
+                        <!--INFORMAÇÕES PESSOAIS-->
+                        <div class="coluna coluna-direita">
+
+                            <h1>Elaine Ferreira</h1>
+                            <p>Estudante</p>
+
+                            <ul>
+                                <li>
+                                    <a href="mailto:exemplo@gmail.com">exemplo@gmail.com</a>
+                                </li>
+                                <li>
+                                    <a href="tel:559112345678">(91) 9 12345678</a>
+                                </li>
+                                <li>
+                                    <a href="">Centro, Nxxx, Distrito Industrial - Ananindeua - PA</a>
+                                </li>
+                            </ul>
+
+                        </div>    
+                </div>
+            </div>
+
+        </header>
+
+        <main>
+
+            <div class="container">
+                
+                <div class="linha">
+                    <!--CONTEÚDO LADO ESQUERDO-->
+                    <div class="coluna coluna-esquerda">
+                        <section>
+                            <span class="topo-direita"></span>
+                            <h2>Perfil Profissional</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, maxime doloribus quasi quas vero sint magnam earum? Id amet exercitationem voluptatum modi quasi unde obcaecati, adipisci eos ratione repellat atque.</p>
+                            <span class="baixo-esquerda"></span>
+                        </section>
+
+                        <section>
+                            <span class="topo-direita"></span>
+                            <h2>Especialidades</h2>
+                            <ul>
+                                <li>HTML 5</li>
+                                <li>CSS 3</li>
+                                <li>JavaScript</li>
+                                <li>React Js</li>
+                            </ul>
+                            <span class="baixo-esquerda"></span>
+                        </section>
+
+                        <section>
+                            <span class="topo-direita"></span>
+                            <h2>Cursos</h2>
+                            <ul>
+                                <li>HTML 5 - Kenzie Academy</li>
+                                <li>CSS 3 - Kenzie Academy</li>
+                                <li>JavaScript - Kenzie Academy</li>
+                                <li>React Js - Kenzie Academy</li>
+                            </ul>
+                            <span class="baixo-esquerda"></span>
+                        </section>
+                    </div>
+
+                    <!--CONTEÚDO LADO DIREITO-->
+                    <div class="coluna coluna-direita">
+                    
+                        
+                        <section>
+                            <span class="topo-direita"></span>
+                            <h2>Experiências</h2>
+                            <ul>
+                                <li>
+                                    <h3>Facilitador de treinamento</h3>
+                                    <strong>Nome da empresa - Tempo Integral</strong>
+                                    <p>Período empregado de 2020 - o momento Duração 1 ano e 1 mês Localidade Curitiba, Paraná</p>
+                                </li>
+                                <li>
+                                    <h3>Facilitador de treinamento</h3>
+                                    <strong>Nome da empresa - Tempo Integral</strong>
+                                    <p>Período empregado de 2020 - o momento Duração 1 ano e 1 mês Localidade Curitiba, Paraná</p>
+                                </li>
+                                <li>
+                                    <h3>Facilitador de treinamento</h3>
+                                    <strong>Nome da empresa - Tempo Integral</strong>
+                                    <p>Período empregado de 2020 - o momento Duração 1 ano e 1 mês Localidade Curitiba, Paraná</p>
+                                </li>
+                            </ul>
+                            <span class="baixo-esquerda"></span>
+                        </section>
+
+                        <section>
+                            <span class="topo-direita"></span>
+                            <h2>Formação</h2>
+                            <ul>
+                                <li>
+                                    <h3>Facilitador de treinamento <strong>21/03/2021 - 25/03/2021</strong></h3>
+                                    <p>Kenzie Academy</p>
+                                </li>
+                                <li>
+                                    <h3>Facilitador de treinamento <strong>21/03/2021 - 25/03/2021</strong></h3>
+                                    <p>Kenzie Academy</p>
+                                </li>
+                                <li>
+                                    <h3>Facilitador de treinamento <strong>21/03/2021 - 25/03/2021</strong></h3>
+                                    <p>Kenzie Academy</p>
+                                </li>
+                            </ul>
+                            <span class="baixo-esquerda"></span>
+                        </section>
+                    </div>
+        <footer>
+            <div class="container">
+                <nav>
+                    <ul class="info-contato">
+                        <li>
+                            <a href="mailto:exemplo@gmail.com"><strong>Email:</strong> exemplo@gmail.com</a>
+                        </li>
+                        <li>
+                            <a href="tel:559112345678"><strong>Telefone:</strong> (91) 9 12345678</a>
+                        </li>
+                        <li>
+                            <a href=""><strong>Endereço:</strong> Centro, Nxxx, Distrito Industrial - Ananindeua - PA</a>
+                        </li>
+                    </ul>
+                </nav>
+                
+                <nav>
+                    <ul class="redes-sociais">
+                        <li>
+                            <a href="">
+                                <img src="./assets/img/linkedin.svg" alt="LinkedIn">
+                                <p>LinkedIn</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./assets/img/github-big-logo.svg" alt="GitHub">
+                                <p>GitHub</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./assets/img/instagram.svg" alt="Instagram">
+                                <p>Instagram</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./assets/img/facebook-app-symbol.svg" alt="Facebook">
+                                <p>Facebook</p>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+    </div>
+        
 </body>
 </html>
