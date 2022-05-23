@@ -1,2 +1,3 @@
-# portfolio-KA-html-css
- Curso online criando portfolio com HTML e CSS feito pela Kenzie Academy
+# My resume
+Hello, my name is Elaine
+This is my resume, feel free.
