@@ -1,0 +1,113 @@
+:root {
+  --primary-color: #041540;
+  --secondary-color: #0181c2;
+  --gray-color: #868585;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #e9e7fc;
+}
+
+a {
+  text-decoration: none;
+}
+
+.primary-color {
+  background-color: var(--primary-color);
+}
+
+.secondary-color {
+  background-color: var(--secondary-color);
+}
+
+.profile {
+  max-width: 350px;
+}
+
+.img-portfolio div img{
+  height: 200px;
+  max-height: 300px;
+  width: 100%;
+  border-radius: 50px;
+}
+
+.title-font {
+  font-family: "Poppins", sans-serif;
+}
+
+.text-font {
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  border-bottom: 1px solid var(--gray-color);
+}
+
+main {
+  min-height: 100vh;
+}
+
+.infos {
+  background: linear-gradient(
+    165deg,
+    var(--primary-color) 50%,
+    var(--secondary-color) 100%
+  );
+  min-height: 600px;
+}
+
+.skills-itens:hover,
+.contato-itens:hover {
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  color: #fff;
+}
+
+i[class^="devicon"] {
+  font-size: 100px;
+}
+
+.contato-itens i[class^="bi"] {
+  font-size: 50px;
+  color: var(--secondary-color);
+}
+
+.contato-itens:hover i:first-of-type {
+  color: #fff;
+}
+
+a i[class^="devicon"] {
+  font-size: 30px;
+  color: var(--gray-color);
+}
+
+a i[class^="bi"] {
+  font-size: 30px;
+  color: var(--gray-color);
+}
+
+.card a i[class^="bi"]:hover {
+  color: var(--secondary-color);
+}
+
+.referencias {
+  color: var(--gray-color);
+}
+
+footer {
+  background-color: #0d1c2f;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .profile {
+    max-width: 300px;
+    max-height: 300px;
+  }
+}
